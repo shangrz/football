@@ -112,7 +112,22 @@
             <artifactId>gpars</artifactId>
             <version>1.0-beta-3</version>
         </dependency>
+        <dependency>
+            <groupId>com.enigmastation</groupId>
+            <artifactId>ci-bayes</artifactId>
+            <version>2.0.0.RELEASE</version>
+        </dependency>
     </dependencies>
+    <repositories>
+
+        <repository>
+            <id>java.net-m2</id>
+            <name>java.net - Maven 2</name>
+            <url>https://repository.jboss.org/nexus/content/repositories/java.net-m2</url>
+        </repository>
+    </repositories>
+
+
 
     
 </project>
